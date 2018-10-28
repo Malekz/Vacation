@@ -1,0 +1,126 @@
+.first-container {
+  background: url(https://images.unsplash.com/photo-1516815231560-8f41ec531527?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=f5f86c35ec204f87dc927a15c554e8f7) center/cover no-repeat;
+  width: 100%;
+  height: 100vh;
+  position:relative;
+}
+header{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 40%;
+  justify-content: space-around;
+  place-items: center start;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  rgba(0,0,0,0.5)
+  transition: 0.5 ease;
+}
+.first-container a:hover {
+background-color: #000;
+  
+}
+.text-container {
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px;
+}
+
+.text {
+  /*position: absolute;
+  right:0%;
+  bottom:50%;*/
+  height: 80vh;
+  
+  text-align: center;
+  
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: end;
+  align-content: center;
+}
+
+.red-text {
+  color: red;
+  font-size: 20px;
+}
+.white-text {
+  color: white;
+  font-size: 17px;
+  padding-right: 10px;
+}
+.blue-text {
+  color: #ADD8E6;
+  font-size: 40px;
+}
+
+img {
+  opacity: 1;
+  width:200%;
+  transition: 0.5s ease;
+}
+
+.grid-container img:hover {
+  opacity: 0.3;
+}
+
+
+.second-container {
+  padding: 50px;
+}
+
+.locations {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  height: 150px;
+}
+.second-container h1 {
+  justify-self: center;
+}
+.line {
+  height: 5px;
+  width: 80px;
+  background-color: #000;
+  align-items: end;
+  justify-self: center;
+
+}
+/*
+.locations {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.line {
+  height: 5px;
+  width: 70px;
+  background-color: #000;
+  position: absolute;
+  left: 47%;
+  top: 75px;
+}
+.second-container h1 {
+  font-size: 35px;
+  position: absolute;
+  left: 40%;
+}
+*/
+img {
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
